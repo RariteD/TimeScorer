@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="type_of_date">Day, Week, Month</array>
+</resources>
