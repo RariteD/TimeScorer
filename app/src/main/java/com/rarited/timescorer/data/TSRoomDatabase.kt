@@ -57,9 +57,9 @@ abstract class TSRoomDatabase : RoomDatabase() {
             tsDao.deleteAll()
 
             // Add sample words.
-            var timer = TSDataEntity( "you are gay",0,0)
+            var timer = TSDataEntity( "hello...",0,0)
             tsDao.tsInsert(timer)
-            timer = TSDataEntity("really gay...",0,0)
+            timer = TSDataEntity("its me...",0,0)
             tsDao.tsInsert(timer)
         }
     }
